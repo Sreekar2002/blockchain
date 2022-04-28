@@ -83,7 +83,7 @@ class Node:
                 self.blockchain = Blockchain(self.wallet.public_key)
             elif user_choice == '7':
                 self.wallet.save_keys()
-            elif user_choice == '8':
+            elif user_choice == '9':
                 # This will lead to the loop to exist because it's running condition becomes False
                 waiting_for_input = False
             else:
